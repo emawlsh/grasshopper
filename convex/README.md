@@ -1,5 +1,9 @@
 # Welcome to your Convex functions directory!
 
+# Convex Functions Structure
+
+This project organizes Convex queries and mutations in `queries/` and `mutations/` folders inside the `convex/` directory. Each table in the schema has its own file in both folders, containing relevant query and mutation functions.
+
 Write your Convex functions here.
 See https://docs.convex.dev/functions for more.
 
@@ -80,7 +84,7 @@ function handleButtonPress() {
   // OR
   // use the result once the mutation has completed
   mutation({ first: "Hello!", second: "me" }).then((result) =>
-    console.log(result),
+    console.log(result)
   );
 }
 ```
